@@ -70,7 +70,7 @@ const App = () => {
     <Container>
       <Content>
         <Input value={currentNumber}/>
-        <Row> */ Primeira Linha de números */
+        <Row>
           <Button label="x"/>
           <Button label="/"/>
           <Button label="c" onClick={handleOnClear}/>
