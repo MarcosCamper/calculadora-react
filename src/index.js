@@ -1,8 +1,7 @@
 import React from 'react';
 import ReactDOM from 'react-dom/client';
 import App from './App';
-
-import GlobalStyles from './global';
+import GlobalStyles from './global'; //toda estilização para nossa aplicação.
 
 
 const root = ReactDOM.createRoot(document.getElementById('root'));

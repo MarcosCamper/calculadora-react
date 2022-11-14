@@ -10,17 +10,17 @@ const App = () => {
   const [currentNumber, setCurrentNumber] = useState('0');
   const [firstNumber, setFirstNumber] = useState('0');
   const [operation, setOperation] = useState('');
-
+// Limpando a tela da caluladora com handleOnClear
   const handleOnClear = () => {
     setCurrentNumber('0')
     setFirstNumber('0')
     setOperation('')
   };
-
+// Adicionando os numeros na tela da calculadora com handleAddNumber.
   const handleAddNumber = (num) => {
     setCurrentNumber(prev => `${prev === '0' ? '' : prev}${num}`)
   }
-
+// Função para realizar a soma.
   const handleSumNumbers = () => {
 
     if(firstNumber === '0'){
@@ -34,7 +34,7 @@ const App = () => {
     }
 
   }
-
+// Função para realizar a subitração.
   const handleMinusNumbers = () => {
 
     if(firstNumber === '0'){
@@ -48,7 +48,7 @@ const App = () => {
     }
 
   }
-
+//Função para resultado.
   const handleEquals = () => {
 
     if(firstNumber !== '0' && operation !== '' && currentNumber !== '0'){
@@ -70,7 +70,7 @@ const App = () => {
     <Container>
       <Content>
         <Input value={currentNumber}/>
-        <Row>
+        <Row> */ Primeira Linha de números */
           <Button label="x"/>
           <Button label="/"/>
           <Button label="c" onClick={handleOnClear}/>

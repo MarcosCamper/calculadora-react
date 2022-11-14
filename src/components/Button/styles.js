@@ -13,3 +13,5 @@ export const ButtonContainer = styled.button`
         opacity: 0.6;
     }
 `
+// &:hover com opacidade server para ao botar o mouse em cima o fundo fica mais claro
+// flex: 1; foi usado para colocar todos os botões do mesmo tamanho.

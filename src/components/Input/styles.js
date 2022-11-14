@@ -7,7 +7,7 @@ export const InputContainer = styled.div`
 
     display: flex;
     align-items: center;
-    justify-content: flex-end;
+    justify-content: flex-end; 
 
     font-size: 24px;
     font-family: 'Roboto';
@@ -27,3 +27,4 @@ export const InputContainer = styled.div`
         color: #FFFFFF;
     }
 `
+//nosso visor foi para o final da linha com justify-content: flex-end; 

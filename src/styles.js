@@ -4,12 +4,12 @@ export const Container = styled.div`
     width: 100%;
     height: 100vh;
     background-color: #CACACA;
-
+    
     display: flex;
     align-items: center;
     justify-content: center;
 `
-
+// Esses ultimos estilos do Container são para alinhar o nosso container no centro da página
 
 export const Content = styled.div`
     background-color: #FFFFFF;
@@ -17,14 +17,14 @@ export const Content = styled.div`
 `
 
 export const Row = styled.div`
-    display:flex;
+    display: flex;
     flex-direction: row;
     justify-content: space-between;
     align-items: center;
 `
 
 export const Column = styled.div`
-    display:flex;
+    display: flex;
     flex-direction: column;
     justify-content: space-between;
     align-items: center;
