@@ -73,7 +73,6 @@ const App = () => {
         setOperation('/')
     }else {
       const div = Number(firstNumber) / Number(currentNumber);
-      console.log(div)
       setCurrentNumber(String(div))
       setOperation('')
     }
